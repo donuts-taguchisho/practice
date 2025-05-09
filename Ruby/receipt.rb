@@ -4,9 +4,7 @@ class Receipt
     @lines = []
   end
 
-  def lines=(lines)
-    @lines = lines
-  end
+  attr_accessor :name, :lines
 
   def calc
     total = 0
