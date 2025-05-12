@@ -13,3 +13,14 @@ end
 access = AccessTest.new
 access.pub
 access.priv
+# 別解
+# class AccessTest
+#   def pub
+#     puts ""
+#   end
+#   def priv
+#     puts ""
+#   end
+#   public :pub
+#   private :priv
+# end
